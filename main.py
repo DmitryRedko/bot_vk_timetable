@@ -58,7 +58,7 @@ class Main:
             cls.write_msg(event.user_id, "Введите пароль:")
             Admin.autorise()
         else:
-            Main.write_msg(event.user_id, "Не понял вашего ответа... \'помощь\', чтобы посмотреть функционал")
+            Main.write_msg(event.user_id, "Не понял вашего ответа... \'помощь\', чтобы посмотреть функционал, если что-то перестало работать пиши \"меню\"")
 
     @classmethod
     def checktimetable(cls, reqest,week):
