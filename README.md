@@ -1,2 +1,2 @@
 # bot_vk_timetable
-# All information in 'config.py' has been changed. This file is just to illustrate how it should work.
+# The bot is written in vk_api, does not support asynchronous operation. The function of schedule parsing is implemented. The PostgreSQL database is connected as a storage for links. In the menu of the VK bot there is an admin panel that allows you to add, change and delete links without directly accessing the database through queries (which allows people who do not know SQL queries to use the bot)
